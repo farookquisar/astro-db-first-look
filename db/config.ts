@@ -6,7 +6,7 @@ const Link = defineTable({
     title: column.text(),
     url: column.text(),
     description: column.text(),
-    isRead: column.boolean({ default: false }), 
+    isRead: column.boolean({ default: false }),  
   },
 });
 
