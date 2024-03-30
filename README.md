@@ -4,6 +4,16 @@
 
 ## ASTRO DB Usage
 
+### Main Project Files
+    - db/config.ts
+    - db/seed.ts
+    - src/pages/index.astro
+    - src/components/LinkCard.astro
+    - src/components/ui/Dialog.astro
+    - src/pages/api/addLink.json.ts
+    - src/pages/api/[id].json.ts
+    
+
 ### 1. Create a DB in https://studio.astro.build/ (Create from Git)
 
     - Check the the **Action** Tab in Git project
