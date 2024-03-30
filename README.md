@@ -1,6 +1,11 @@
-## ASTRO DB
+DB: https://studio.astro.build/farookquisar/astro-db-first-look
+
+--############################################################################################################
+
+## ASTRO DB Usage
 
 ### Create a DB in https://studio.astro.build/ (Create from Git)
+
     - Check the the **Action** Tab in Git project
 
 ### To connect to the DB (to Astro Studio)
