@@ -1,3 +1,30 @@
+## ASTRO DB
+
+### Create a DB in https://studio.astro.build/ (Create from Git)
+    - Check the the **Action** Tab in Git project
+
+### To connect to the DB (to Astro Studio)
+
+`npm run astro login`
+`npm run astro link`
+
+### To run remote db from dev
+
+1. Add **"dev-db": "astro dev --remote",** (in package.json)
+2. Run the below command
+   `npm run dev-db`
+
+### To Build and Deploy (eg. Netlify)
+
+1. Generate a token in Astro Studio
+   - Go to the studio project (eg https://studio.astro.build/farookquisar/astro-db-first-look/data/Link)
+   - Go to Settings -> Tokens -> Generate Token -> Copy the token (Give any name)
+   - Go to netlify site and add an environment variable called "ASTRO_STUDIO_APP_TOKEN" and paste the token value generated
+   - Add the below in package.json:
+     **"build": "astro check && astro build --remote",**
+
+# --############################################################################################################
+
 # Astro Starter Kit: Minimal
 
 ```sh
