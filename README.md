@@ -1,4 +1,4 @@
-DB: https://studio.astro.build/farookquisar/astro-db-first-look
+## DB: https://studio.astro.build/farookquisar/astro-db-first-look/data/Link
 
 --############################################################################################################
 
