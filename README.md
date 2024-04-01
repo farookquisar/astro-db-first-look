@@ -35,6 +35,8 @@
     ```
 
 ### Create db/config.ts (Sample Content)
+
+```js copy
 import { column, defineDb, defineTable } from "astro:db";
 
 const Link = defineTable({
@@ -50,9 +52,12 @@ const Link = defineTable({
 // https://astro.build/db/config
 export default defineDb({
   tables: { Link },
-}); 
+});
+```
 
 ### Create db/seed.ts for Dev (Sample Content)
+
+```js copy
 import { Link, db } from "astro:db";
 
 // https://astro.build/db/seed
@@ -85,6 +90,7 @@ export default async function seed() {
     },
   ]);
 }
+```
 
 
 ### 3. Run remote db from dev
