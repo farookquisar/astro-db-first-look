@@ -34,9 +34,9 @@
     npm run astro link
     ```
 
-### Create db/config.ts (Sample Content)
+### Create src/db/config.ts (Sample Content)
 
-```js copy
+```js filename="src/db/config.ts" copy
 import { column, defineDb, defineTable } from "astro:db";
 
 const Link = defineTable({
@@ -55,9 +55,9 @@ export default defineDb({
 });
 ```
 
-### Create db/seed.ts for Dev (Sample Content)
+### Create src/db/seed.ts for Dev (Sample Content)
 
-```js copy
+```js filename="src/db/seed.ts" copy
 import { Link, db } from "astro:db";
 
 // https://astro.build/db/seed
