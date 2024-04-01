@@ -26,6 +26,11 @@
     ```
 
     ```
+    npm i @astrojs/db
+    ```
+    
+
+    ```
     npm run astro link
     ```
 
