@@ -26,7 +26,7 @@
     ```
 
     ```js copy
-    npm i @astrojs/db
+    npx astro add db
     ```
     
 
@@ -90,6 +90,11 @@ export default async function seed() {
     },
   ]);
 }
+```
+
+#### To seed this to remote DB:
+```js copy
+astro db execute db/seed.ts --remote
 ```
 
 
