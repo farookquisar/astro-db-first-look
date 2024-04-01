@@ -21,16 +21,16 @@
 
 ### 2. Connect to the DB (to Astro Studio)
 
-    ```
+    ```js copy
     npm run astro login
     ```
 
-    ```
+    ```js copy
     npm i @astrojs/db
     ```
     
 
-    ```
+    ```js copy
     npm run astro link
     ```
 
