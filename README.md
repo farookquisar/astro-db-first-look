@@ -12,7 +12,8 @@
     - src/components/ui/Dialog.astro
     - src/pages/api/addLink.json.ts
     - src/pages/api/[id].json.ts
-    
+
+### 1. First create an astro project and commit it.    
 
 ### 1. Create a DB in https://studio.astro.build/ (Create from Git)
 
