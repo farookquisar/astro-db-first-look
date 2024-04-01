@@ -21,9 +21,13 @@
 
 ### 2. Connect to the DB (to Astro Studio)
 
-    `npm run astro login`
+    ```
+    npm run astro login
+    ```
 
-    `npm run astro link`
+    ```
+    npm run astro link
+    ```
 
 ### 3. Run remote db from dev
 
